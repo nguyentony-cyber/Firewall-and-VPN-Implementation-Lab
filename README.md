@@ -1,6 +1,5 @@
-Here’s the full Markdown code for your **Firewall and VPN Implementation** GitHub repo README file — just copy and paste this into your new repo’s README.md file:
 
-```markdown
+
 # Firewall and VPN Implementation Lab
 
 ## 📌 Objective  
@@ -39,8 +38,7 @@ Design and implement a secure, enterprise-grade network topology for Corporation
 | Network Protocol       | IPv4 (planned gradual transition to IPv6)            |
 | Redundancy             | Redundant links and power backups (UPS), RAID storage on servers |
 
-**Figure 1: Network Topology Diagram**  
-*(Add your network diagram image here)*  
+
 
 ---
 
@@ -51,8 +49,7 @@ Design and implement a secure, enterprise-grade network topology for Corporation
 - **Server Firewalls:** Windows Firewall (or iptables on Linux) to restrict access on individual servers.  
 - **Workstation Firewalls:** Windows Defender Firewall enabled on all workstations for local protection.  
 
-**Figure 2: Firewall Placement Diagram**  
-*(Add diagram or screenshots here)*
+
 
 ---
 
@@ -70,16 +67,5 @@ Design and implement a secure, enterprise-grade network topology for Corporation
 
 This design modernizes Corporation Techs’ network by introducing layered security, segmentation, and remote access capabilities. Using dual firewalls and a DMZ isolates public web services from internal resources, reducing attack surface. Department VLANs improve security and fault isolation. The VPN plan enables secure remote connectivity for users, supported by strong authentication mechanisms. Together, these upgrades improve network resilience, security posture, and readiness for future growth.
 
----
 
-## 📝 Next Steps  
-- Deploy and configure firewall appliances and rules per design.  
-- Implement VLANs and test network segmentation.  
-- Set up VPN infrastructure and validate remote access.  
-- Monitor and maintain with logging and alerting tools.  
-
----
-```
-
----
 
